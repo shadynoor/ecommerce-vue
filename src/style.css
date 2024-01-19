@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  font-size: 10px;
+  @media (max-width: 1600px) {
+    font-size: 8px;
+  }
+}
+
+.active {
+  color: #aaa !important;
+}
+a {
+  text-decoration: none;
+}
